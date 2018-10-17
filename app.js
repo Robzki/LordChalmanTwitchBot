@@ -19,3 +19,7 @@ var options = {
 
 var client = new tmi.client(options);
 client.connect();
+
+client.on('connected', function(adress, port) {
+  client.action("kompisrobzki", "Lord Chalman har anlänt!");
+});
