@@ -9,11 +9,12 @@ var options = {
     reconnect: true
   },
   identity: {
-    username: "VadNuBottenHeter",
-    password: "VadFörLösenordBottenHar"
+    username: "LordChalmanBot",
+    password: "oauth:47sr0qcwrlbnx2mdnoj5xym01wjnz5"
   },
   channels: ["kompisrobzki",
-             "KompisKlanen"]
+             "kompisklanen",
+             "goldenarrowse"]
 };
 
 var client = new tmi.client(options);
