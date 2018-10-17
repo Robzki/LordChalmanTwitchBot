@@ -10,7 +10,7 @@ var options = {
   },
   identity: {
     username: "LordChalmanBot",
-    password: "oauth:47sr0qcwrlbnx2mdnoj5xym01wjnz5"
+    password: "xxx"
   },
   channels: ["kompisrobzki",
              "kompisklanen",
